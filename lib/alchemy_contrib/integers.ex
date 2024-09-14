@@ -22,5 +22,4 @@ defmodule AlchemyContrib.Integers do
   def divide() do
     [~s(div\(10, 3\) == _), ~s(div\(9, 3\) == _)]
   end
-
 end
