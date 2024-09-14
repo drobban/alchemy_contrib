@@ -15,14 +15,15 @@ defmodule AlchemyContrib do
     [Integers, Strings]
   end
 
-  def get_module(name) do 
+  def get_module(name) do
     list_modules()
-    |> Enum.find(fn module -> 
+    |> Enum.find(fn module ->
       module_name =
-       Atom.to_string(module)
-       |> String.split(".")
-       |> Enum.at(-1)
-      module_name == name 
+        Atom.to_string(module)
+        |> String.split(".")
+        |> Enum.at(-1)
+
+      module_name == name
     end)
   end
 end
