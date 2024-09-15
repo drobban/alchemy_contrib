@@ -5,7 +5,7 @@ defmodule AlchemyContrib.Integers do
   """
 
   @doc """
-  How do we change an entire string to uppercase
+  Return the arithmetical absolute value of number.
   Hint: iex> h abs
   """
   def absolute() do
@@ -21,5 +21,35 @@ defmodule AlchemyContrib.Integers do
   """
   def divide() do
     [~s(div\(10, 3\) == _), ~s(div\(9, 3\) == _)]
+  end
+
+
+  @doc """
+  max/2 returns the biggest of the two given terms according to their structural
+  comparison. 
+  What is the result returned by max
+  Hint: _
+  """
+  def max() do
+    [~s(max\(5, 2\) == _), ~s(max\(4, 5\) == _)]
+  end
+
+  @doc """
+  min/2 returns the smallest of the two given terms according to their structural
+  comparison.
+  What is the result returned by min
+  Hint: _
+  """
+  def min() do
+    [~s(min\(5, 2\) == _), ~s(min\(2, 5\) == _)]
+  end
+
+  @doc """
+  rem/2 computes the remainder of an integer division.
+  What is the result returned by rem
+  Hint: _
+  """
+  def rem() do
+    [~s(rem\(5, 2\) == _), ~s(rem\(10, 3\) == _)]
   end
 end

@@ -19,4 +19,13 @@ defmodule AlchemyContrib.Strings do
   def capitalize() do
     [~s(_\("adam"\) == "Adam"), ~s(_\("bertil"\) == "Bertil")]
   end
+
+  @doc """
+  Return last grapheme in string
+  Hint: iex> h String.at
+  """
+  def last_char() do
+    [~s(_\("adam", -1\) == "m"), ~s(_\("bertil", -1\) == "l")]
+  end
+
 end
