@@ -1,21 +1,12 @@
 # AlchemyContrib
 
-**TODO: Add description**
+This is repo is used by Alchemy4Elixir system.
 
-## Installation
+## To add a contribution to the set of questions 
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `alchemy_contrib` to your list of dependencies in `mix.exs`:
+You start by creating a module and then simply add your questions as a function that 
+returns a list of unit tests. 
 
-```elixir
-def deps do
-  [
-    {:alchemy_contrib, "~> 0.1.0"}
-  ]
-end
-```
+The Code that is assumed to be filled in by the user is supplied as `_`.
 
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at <https://hexdocs.pm/alchemy_contrib>.
-
+Have a look at String, Integer and Function module for examples.
