@@ -4,6 +4,9 @@ defmodule AlchemyContrib.Function do
   Level: elementary
   """
 
+  @level "elementary"
+  def get_level, do: @level
+
   @doc """
   In elixir we are able to create anonymous functions with the help of fn.
   Fill in the blank to complete the anonymous function.

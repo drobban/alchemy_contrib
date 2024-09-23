@@ -3,6 +3,9 @@ defmodule AlchemyContrib.Strings do
   Topic: Manipulating strings
   Level: elementary
   """
+  @level "elementary"
+
+  def get_level, do: @level
 
   @doc """
   How do we change an entire string to uppercase

@@ -3,6 +3,9 @@ defmodule AlchemyContrib.Integers do
   Topic: Working with integers
   Level: elementary
   """
+  @level "elementary"
+
+  def get_level, do: @level
 
   @doc """
   Return the arithmetical absolute value of number.
