@@ -27,5 +27,4 @@ defmodule AlchemyContrib.Strings do
   def last_char() do
     [~s(_\("adam", -1\) == "m"), ~s(_\("bertil", -1\) == "l")]
   end
-
 end
