@@ -1,4 +1,5 @@
 defmodule AlchemyContrib do
+  alias AlchemyContrib.Lists
   alias AlchemyContrib.Function
   alias AlchemyContrib.Strings
   alias AlchemyContrib.Integers
@@ -13,7 +14,7 @@ defmodule AlchemyContrib do
   Append list with your module.
   """
   def list_modules() do
-    [Integers, Strings, Function]
+    [Integers, Strings, Function, Lists]
   end
 
   def get_module(name) do
